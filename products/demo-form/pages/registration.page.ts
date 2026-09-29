@@ -27,16 +27,16 @@ export class RegistrationPage extends BasePage {
   constructor(page: Page) {
     super(page);
     this.heading = page.getByRole("heading", { name: "Registration" });
-    this.fullNameInput = page.getByLabel("Full name");
+    this.fullNameInput = page.getByRole("textbox", { name: "Your name" });
     this.emailInput = page.getByLabel("Email");
     this.passwordInput = page.getByLabel("Password");
     this.countrySelect = page.getByLabel("Country");
     this.termsCheckbox = page.getByLabel("I accept the terms");
-    this.submitButton = page.getByRole("button", { name: "Submit" });
+    this.submitButton = page.getByRole("button", { name: "Create account" });
     this.resetButton = page.getByRole("button", { name: "Reset" });
     this.successMessage = page.getByRole("status");
     this.fullNameError = page.locator("#fullName-error");
-    this.emailError = page.locator("#email-error");
+    this.emailError = page.locator("#email-feedback");
     this.passwordError = page.locator("#password-error");
     this.termsError = page.locator("#terms-error");
   }

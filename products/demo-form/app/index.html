@@ -15,13 +15,13 @@
 <body>
   <h1>Registration</h1>
   <form id="registration-form" novalidate>
-    <label for="fullName">Full name</label>
+    <label for="fullName">Your name</label>
     <input id="fullName" name="fullName" type="text" />
     <div class="error" id="fullName-error" role="alert"></div>
 
     <label for="email">Email</label>
     <input id="email" name="email" type="email" />
-    <div class="error" id="email-error" role="alert"></div>
+    <div class="error" id="email-feedback" role="alert"></div>
 
     <label for="password">Password</label>
     <input id="password" name="password" type="password" />
@@ -38,7 +38,7 @@
     <label><input id="terms" name="terms" type="checkbox" style="width:auto" /> I accept the terms</label>
     <div class="error" id="terms-error" role="alert"></div>
 
-    <button type="submit">Submit</button>
+    <button type="submit">Create account</button>
     <button type="reset">Reset</button>
   </form>
   <p id="success" role="status"></p>
@@ -46,7 +46,8 @@
   <script>
     const form = document.getElementById("registration-form");
     const success = document.getElementById("success");
-    const setError = (id, msg) => (document.getElementById(id + "-error").textContent = msg);
+    const setError = (id, msg) =>
+      (document.getElementById(id + (id === "email" ? "-feedback" : "-error")).textContent = msg);
 
     form.addEventListener("submit", (e) => {
       e.preventDefault();
