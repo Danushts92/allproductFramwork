@@ -1,0 +1,63 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - button [ref=e6] [cursor=pointer]
+    - complementary [ref=e9]:
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - generic [ref=e12]: 
+        - listitem [ref=e15]:
+          - generic [ref=e16] [cursor=pointer]: 
+        - listitem [ref=e19]:
+          - generic [ref=e20] [cursor=pointer]: 
+        - listitem [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]: 
+        - listitem [ref=e27]:
+          - generic [ref=e28] [cursor=pointer]: 
+        - listitem [ref=e31]:
+          - generic [ref=e32] [cursor=pointer]: 
+        - listitem [ref=e35]:
+          - generic [ref=e36] [cursor=pointer]: 
+        - listitem [ref=e39]:
+          - generic [ref=e40] [cursor=pointer]: 
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - figure [ref=e97] [cursor=pointer]
+        - listitem [ref=e48]:
+          - generic [ref=e49] [cursor=pointer]: 
+        - listitem [ref=e52]:
+          - generic [ref=e53] [cursor=pointer]: 
+        - listitem [ref=e56]
+  - generic [ref=e60]:
+    - navigation "main navigation" [ref=e61]:
+      - generic [ref=e64]:
+        - button "" [ref=e65] [cursor=pointer]
+        - link [ref=e68] [cursor=pointer]:
+          - /url: https://manufacton.zendesk.com/hc/en-us
+        - figure [ref=e70]
+    - generic [ref=e71]:
+      - button "Projects (57/57):" [ref=e99] [cursor=pointer]
+      - generic [ref=e75]: All Projects
+    - generic [ref=e1306]:
+      - tablist [ref=e1307]:
+        - tab [selected] [ref=e1308]:
+          - button "Dashboard" [ref=e1309] [cursor=pointer]
+        - tab [ref=e1311]:
+          - button "Detailing" [ref=e1312] [cursor=pointer]
+        - tab [ref=e1314]:
+          - button "Manufacturing" [ref=e1315] [cursor=pointer]
+        - tab [ref=e1317]:
+          - button "QA/QC" [ref=e1318] [cursor=pointer]
+      - generic [ref=e1320]:
+        - generic [ref=e1321]:
+          - text: "Time since last update:"
+          - iframe [ref=e1323]:
+            - img "Power BI loading" [ref=f16e3]
+        - generic [ref=e1325]:
+          - generic [ref=e1326]: UPCOMING PRODUCTION ORDERS
+          - generic [ref=e1329]: PRODUCTIVITY BY PROJECT
+          - generic [ref=e1332]: PRODUCTIVITY BY WORK STEP
+          - generic [ref=e1336]:
+            - text: SHOP HOURS
+            - combobox [ref=e1337]:
+              - option "Monthly"
+              - option "Weekly" [selected]

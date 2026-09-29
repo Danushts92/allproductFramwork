@@ -1,0 +1,5 @@
+[    3751ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://stage.manufacton.com/#/login:0
+[    4258ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://stage.manufacton.com/api/v4/tenDuke/renewUserLicense:0
+[    4258ms] [ERROR] Error: Unable to renew license. @ https://stage.manufacton.com/js/app.17a3cf57.js:0
+[    4260ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.17a3cf57.js:0
+[    5400ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://stage.manufacton.com/#/login:0

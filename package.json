@@ -1,0 +1,33 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "Multi-product Playwright automation framework (web + API), with Playwright MCP for AI-assisted authoring",
+  "scripts": {
+    "test:manufacton": "playwright test --config=products/manufacton/playwright.config.ts --project=manufacton",
+    "test:manufacton:web": "playwright test --config=products/manufacton/playwright.config.ts --project=manufacton",
+    "test:bimplus": "playwright test --config=products/bimplus/playwright.config.ts --project=bimplus",
+    "test:bimplus:web": "playwright test --config=products/bimplus/playwright.config.ts --project=bimplus",
+    "auth:outlook": "node scripts/extract-outlook-auth.cjs",
+    "test:outlook": "playwright test --config=products/outlook/playwright.config.ts --project=outlook",
+    "test:all": "npm run test:manufacton && npm run test:bimplus && npm run test:outlook && npm run test:allplan-share",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint:selectors": "node scripts/check-spec-selectors.cjs",
+    "new:product": "node scripts/new-product.cjs",
+    "report": "playwright show-report playwright-report",
+    "report:manufacton": "playwright show-report playwright-report/manufacton",
+    "report:bimplus": "playwright show-report playwright-report/bimplus",
+    "report:outlook": "playwright show-report playwright-report/outlook",
+    "test:allplan-share": "playwright test --config=products/allplan-share/playwright.config.ts --project=allplan-share",
+    "report:allplan-share": "playwright show-report playwright-report/allplan-share"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.82",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.3"
+  }
+}

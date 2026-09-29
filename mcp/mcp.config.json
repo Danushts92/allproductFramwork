@@ -1,0 +1,60 @@
+{
+  "mcpServers": {
+    "playwright-manufacton": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--browser",
+        "chromium",
+        "--storage-state",
+        "shared/auth/storage/manufacton.json",
+        "--output-dir",
+        "mcp/ai-generated/manufacton",
+        "--viewport-size",
+        "1280x720"
+      ]
+    },
+    "playwright-bimplus": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--browser",
+        "chromium",
+        "--storage-state",
+        "shared/auth/storage/bimplus.json",
+        "--output-dir",
+        "mcp/ai-generated/bimplus",
+        "--viewport-size",
+        "1280x720"
+      ]
+    },
+    "playwright-outlook": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--browser",
+        "chromium",
+        "--storage-state",
+        "shared/auth/storage/outlook.json",
+        "--output-dir",
+        "mcp/ai-generated/outlook",
+        "--viewport-size",
+        "1280x720"
+      ]
+    },
+    "playwright-allplan-share": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--browser",
+        "chromium",
+        "--storage-state",
+        "shared/auth/storage/allplan-share.json",
+        "--output-dir",
+        "mcp/ai-generated/allplan-share",
+        "--viewport-size",
+        "1280x720"
+      ]
+    }
+  }
+}

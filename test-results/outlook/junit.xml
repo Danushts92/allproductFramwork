@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="14.159707000000001">
+<testsuite name="mail.spec.ts" timestamp="2026-09-28T05:49:05.269Z" hostname="outlook" tests="1" failures="0" skipped="0" time="12.327" errors="0">
+<testcase name="Outlook — authenticated access › user can open the mailbox with extracted Edge session" classname="mail.spec.ts" time="12.327">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|mail-Outlook-—-authenticat-f65f2-with-extracted-Edge-session-outlook\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

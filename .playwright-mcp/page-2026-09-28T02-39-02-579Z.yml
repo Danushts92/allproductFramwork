@@ -1,0 +1,747 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - button [ref=e6] [cursor=pointer]
+    - complementary [ref=e9]:
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - generic [ref=e12]: 
+        - listitem [ref=e15]:
+          - generic [ref=e16] [cursor=pointer]: 
+        - listitem [ref=e19]:
+          - generic [ref=e20] [cursor=pointer]: 
+        - listitem [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]: 
+        - listitem [ref=e27]:
+          - generic [ref=e28] [cursor=pointer]: 
+        - listitem [ref=e31]:
+          - generic [ref=e32] [cursor=pointer]: 
+        - listitem [ref=e35]:
+          - generic [ref=e36] [cursor=pointer]: 
+        - listitem [ref=e39]:
+          - generic [ref=e40] [cursor=pointer]: 
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - figure [ref=e97] [cursor=pointer]
+        - listitem [ref=e48]:
+          - generic [ref=e49] [cursor=pointer]: 
+        - listitem [ref=e52]:
+          - generic [ref=e53] [cursor=pointer]: 
+        - listitem [ref=e56]
+  - generic [ref=e60]:
+    - navigation "main navigation" [ref=e61]:
+      - generic [ref=e64]:
+        - button "" [ref=e65] [cursor=pointer]
+        - link [ref=e68] [cursor=pointer]:
+          - /url: https://manufacton.zendesk.com/hc/en-us
+        - figure [ref=e70]
+    - generic [ref=e71]:
+      - button "Projects (57/57):" [ref=e99] [cursor=pointer]
+      - generic [ref=e75]: All Projects
+    - generic [ref=e101]:
+      - tablist [ref=e102]:
+        - tab [ref=e103]:
+          - button "Dashboard" [ref=e104] [cursor=pointer]
+        - tab [selected] [ref=e106]:
+          - button "Planning" [ref=e107] [cursor=pointer]
+        - tab [ref=e109]:
+          - button "Coordination" [ref=e110] [cursor=pointer]
+        - tab [ref=e112]:
+          - button "Schedule" [ref=e113] [cursor=pointer]
+      - generic [ref=e116]:
+        - button "" [ref=e122] [cursor=pointer]
+        - generic [ref=e124]:
+          - generic [ref=e126]:
+            - combobox [ref=e132]:
+              - generic [ref=e133] [cursor=pointer]
+              - generic [ref=e134]: Bulk Actions
+            - generic [ref=e139]:
+              - button "" [ref=e144] [cursor=pointer]
+              - button "" [ref=e150] [cursor=pointer]
+              - generic [ref=e155]:
+                - combobox [ref=e159]:
+                  - generic [ref=e160] [cursor=pointer]
+                  - generic [ref=e161]: Order Name
+                - paragraph [ref=e166]:
+                  - textbox "Search" [ref=e167]
+                - button "" [ref=e169] [cursor=pointer]
+                - button "i" [ref=e173] [cursor=pointer]
+          - table [ref=e177]:
+            - rowgroup [ref=e178]:
+              - row [ref=e179]:
+                - columnheader [ref=e180]
+                - columnheader "Kits/Prefab Packages" [ref=e181] [cursor=pointer]
+                - columnheader "Kit ID" [ref=e186] [cursor=pointer]
+                - columnheader "" [ref=e188]
+                - columnheader "Project" [ref=e196] [cursor=pointer]
+                - columnheader "Stage" [ref=e198] [cursor=pointer]
+                - columnheader "Owner" [ref=e200] [cursor=pointer]
+                - columnheader "Coordinate By" [ref=e202] [cursor=pointer]
+                - columnheader "Onsite" [ref=e204] [cursor=pointer]
+                - columnheader "Modified" [ref=e206] [cursor=pointer]
+                - columnheader "Notes" [ref=e208]
+                - columnheader "Actions" [ref=e210]
+              - row [ref=e212]:
+                - columnheader [ref=e213]
+                - columnheader [ref=e214] [cursor=pointer]
+                - columnheader [ref=e215] [cursor=pointer]
+                - columnheader [ref=e216]
+                - columnheader [ref=e217] [cursor=pointer]
+                - columnheader [ref=e218] [cursor=pointer]
+                - columnheader [ref=e219] [cursor=pointer]
+                - columnheader "All Dates " [ref=e220] [cursor=pointer]:
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: All Dates
+                    - generic [ref=e226]: 
+                - columnheader "All Dates " [ref=e227] [cursor=pointer]:
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: All Dates
+                    - generic [ref=e233]: 
+                - columnheader "All Dates " [ref=e234] [cursor=pointer]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: All Dates
+                    - generic [ref=e240]: 
+                - columnheader [ref=e241]
+                - columnheader [ref=e242]:
+                  - generic [ref=e244]:
+                    - button "" [ref=e245] [cursor=pointer]
+                    - button "" [ref=e247] [cursor=pointer]
+            - rowgroup [ref=e249]:
+              - row [ref=e250]:
+                - cell [ref=e251]:
+                  - button "" [ref=e252] [cursor=pointer]
+                - cell [ref=e254]:
+                  - generic:
+                    - link:
+                      - /url: "#/prefabs/6984423a7ef3d666e36b6613/6a3246acd3ec81002fe62763/"
+                - cell [ref=e255]
+                - cell [ref=e256]
+                - cell "MetroLink Phase 2" [ref=e257]
+                - cell "Planning" [ref=e260]
+                - cell "Danush001 T S" [ref=e263]
+                - cell "06/02/2026" [ref=e265]
+                - cell "06/13/2026" [ref=e268]
+                - cell "06/17/2026" [ref=e271]
+                - cell [ref=e273]:
+                  - button "0 " [ref=e274] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e275]
+                    - generic [ref=e276]: 
+                - cell [ref=e277]:
+                  - generic [ref=e278]:
+                    - button "" [ref=e279] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e282]:
+                      - button "" [ref=e284] [cursor=pointer]
+                      - text: 
+              - row [ref=e287]:
+                - cell [ref=e288]:
+                  - button "" [ref=e289] [cursor=pointer]
+                - cell [ref=e291]:
+                  - link "0.002-00111" [ref=e293] [cursor=pointer]:
+                    - /url: "#/prefabs/6a9910fcd18411fbc01fd3f8/6a991c553c4469586d80379c/"
+                - cell [ref=e294]
+                - cell [ref=e295]:
+                  - button "" [ref=e300] [cursor=pointer]
+                - cell "PROJ-0309261147" [ref=e302]
+                - cell "Detailing" [ref=e305]
+                - cell "GC FerraBuild" [ref=e308]
+                - cell "09/03/2026" [ref=e310]
+                - cell "09/17/2026" [ref=e313]
+                - cell "09/03/2026" [ref=e316]
+                - cell [ref=e318]:
+                  - button "0 " [ref=e319] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e320]
+                    - generic [ref=e321]: 
+                - cell [ref=e322]:
+                  - generic [ref=e323]:
+                    - button "" [ref=e324] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e327]:
+                      - button "" [ref=e329] [cursor=pointer]
+                      - text: 
+              - row [ref=e332]:
+                - cell [ref=e333]:
+                  - button "" [ref=e334] [cursor=pointer]
+                - cell [ref=e336]:
+                  - link "0.00286" [ref=e338] [cursor=pointer]:
+                    - /url: "#/prefabs/6a9910fcd18411fbc01fd3f8/6a9918239111afe16880eb8e/"
+                - cell [ref=e339]
+                - cell [ref=e340]:
+                  - button "" [ref=e345] [cursor=pointer]
+                - cell "PROJ-0309261147" [ref=e347]
+                - cell "Detailing" [ref=e350]
+                - cell "GC FerraBuild" [ref=e353]
+                - cell "09/02/2026" [ref=e355]
+                - cell "09/25/2026" [ref=e358]
+                - cell "09/03/2026" [ref=e361]
+                - cell [ref=e363]:
+                  - button "0 " [ref=e364] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e365]
+                    - generic [ref=e366]: 
+                - cell [ref=e367]:
+                  - generic [ref=e368]:
+                    - button "" [ref=e369] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e372]:
+                      - button "" [ref=e374] [cursor=pointer]
+                      - text: 
+              - row [ref=e377]:
+                - cell [ref=e378]:
+                  - button "" [ref=e379] [cursor=pointer]
+                - cell [ref=e381]:
+                  - link "0.00885" [ref=e383] [cursor=pointer]:
+                    - /url: "#/prefabs/6a9910fcd18411fbc01fd3f8/6a991b9b3c4469586d801899/"
+                - cell [ref=e384]
+                - cell [ref=e385]:
+                  - button "" [ref=e390] [cursor=pointer]
+                - cell "PROJ-0309261147" [ref=e392]
+                - cell "Detailing" [ref=e395]
+                - cell "GC FerraBuild" [ref=e398]
+                - cell "09/02/2026" [ref=e400]
+                - cell "09/10/2026" [ref=e403]
+                - cell "09/03/2026" [ref=e406]
+                - cell [ref=e408]:
+                  - button "0 " [ref=e409] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e410]
+                    - generic [ref=e411]: 
+                - cell [ref=e412]:
+                  - generic [ref=e413]:
+                    - button "" [ref=e414] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e417]:
+                      - button "" [ref=e419] [cursor=pointer]
+                      - text: 
+              - row [ref=e422]:
+                - cell [ref=e423]:
+                  - button "" [ref=e424] [cursor=pointer]
+                - cell [ref=e426]:
+                  - link "001 coordination to manufacturing" [ref=e428] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1a5dea12b1900310d2b7d/69f8a2d4f84955002eb8541d/"
+                - cell [ref=e429]
+                - cell [ref=e430]
+                - cell "WEB 14.4.1" [ref=e431]
+                - cell "Detailing" [ref=e434]
+                - cell "Aarav Mehta" [ref=e437]
+                - cell "05/05/2026" [ref=e439]
+                - cell "05/26/2026" [ref=e442]
+                - cell "05/04/2026" [ref=e445]
+                - cell [ref=e447]:
+                  - button "0 " [ref=e448] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e449]
+                    - generic [ref=e450]: 
+                - cell [ref=e451]:
+                  - generic [ref=e452]:
+                    - button "" [ref=e453] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e456]:
+                      - button "" [ref=e458] [cursor=pointer]
+                      - text: 
+              - row [ref=e461]:
+                - cell [ref=e462]:
+                  - button "" [ref=e463] [cursor=pointer]
+                - cell [ref=e465]:
+                  - link "001 manufacturing" [ref=e467] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1a5dea12b1900310d2b7d/69f8a3541142a90027f29519/"
+                - cell [ref=e468]
+                - cell [ref=e469]
+                - cell "WEB 14.4.1" [ref=e470]
+                - cell "Coordination" [ref=e473]
+                - cell "Aarav Mehta" [ref=e476]
+                - cell "05/04/2026" [ref=e478]
+                - cell "05/27/2026" [ref=e481]
+                - cell "05/04/2026" [ref=e484]
+                - cell [ref=e486]:
+                  - button "0 " [ref=e487] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e488]
+                    - generic [ref=e489]: 
+                - cell [ref=e490]:
+                  - generic [ref=e491]:
+                    - button "" [ref=e492] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e495]:
+                      - button "" [ref=e497] [cursor=pointer]
+                      - text: 
+              - row [ref=e500]:
+                - cell [ref=e501]:
+                  - button "" [ref=e502] [cursor=pointer]
+                - cell [ref=e504]:
+                  - link "001 new ord" [ref=e506] [cursor=pointer]:
+                    - /url: "#/prefabs/69846cea8e8e2d78770ff891/6a1531bb4fa9f8002833b296/"
+                - cell [ref=e507]
+                - cell [ref=e508]
+                - cell "Central Plaza API Tower" [ref=e509]
+                - cell "Detailing" [ref=e512]
+                - cell "GC FerraBuild" [ref=e515]
+                - cell "05/03/2026" [ref=e517]
+                - cell "05/22/2026" [ref=e520]
+                - cell "05/26/2026" [ref=e523]
+                - cell [ref=e525]:
+                  - button "0 " [ref=e526] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e527]
+                    - generic [ref=e528]: 
+                - cell [ref=e529]:
+                  - generic [ref=e530]:
+                    - button "" [ref=e531] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e534]:
+                      - button "" [ref=e536] [cursor=pointer]
+                      - text: 
+              - row [ref=e539]:
+                - cell [ref=e540]:
+                  - button "" [ref=e541] [cursor=pointer]
+                - cell [ref=e543]:
+                  - link "001 new ord" [ref=e545] [cursor=pointer]:
+                    - /url: "#/prefabs/69846cea8e8e2d78770ff891/6a1533da168f3a00306dec26/"
+                - cell [ref=e546]
+                - cell [ref=e547]
+                - cell "Central Plaza API Tower" [ref=e548]
+                - cell "Detailing" [ref=e551]
+                - cell "GC FerraBuild" [ref=e554]
+                - cell "05/03/2026" [ref=e556]
+                - cell "05/29/2026" [ref=e559]
+                - cell "05/26/2026" [ref=e562]
+                - cell [ref=e564]:
+                  - button "0 " [ref=e565] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e566]
+                    - generic [ref=e567]: 
+                - cell [ref=e568]:
+                  - generic [ref=e569]:
+                    - button "" [ref=e570] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e573]:
+                      - button "" [ref=e575] [cursor=pointer]
+                      - text: 
+              - row [ref=e578]:
+                - cell [ref=e579]:
+                  - button "" [ref=e580] [cursor=pointer]
+                - cell [ref=e582]:
+                  - link "001 ord" [ref=e584] [cursor=pointer]:
+                    - /url: "#/prefabs/698341bb7ef3d666e36af5e5/6a1540538c86500029f3a2c9/"
+                - cell [ref=e585]
+                - cell [ref=e586]
+                - cell "Vertex Build" [ref=e587]
+                - cell "Manufacturing" [ref=e590]
+                - cell "GC FerraBuild" [ref=e593]
+                - cell "05/03/2026" [ref=e595]
+                - cell "05/29/2026" [ref=e598]
+                - cell "08/28/2026" [ref=e601]
+                - cell [ref=e603]:
+                  - button "0 " [ref=e604] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e605]
+                    - generic [ref=e606]: 
+                - cell [ref=e607]:
+                  - generic [ref=e608]:
+                    - button "" [ref=e609] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e612]:
+                      - button "" [ref=e614] [cursor=pointer]
+                      - text: 
+              - row [ref=e617]:
+                - cell [ref=e618]:
+                  - button "" [ref=e619] [cursor=pointer]
+                - cell [ref=e621]:
+                  - link "001 planning to manufacturing6456456456" [ref=e623] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1a5dea12b1900310d2b7d/69f8a25cf84955002eb85387/"
+                - cell [ref=e624]
+                - cell [ref=e625]
+                - cell "WEB 14.4.1" [ref=e626]
+                - cell "Coordination" [ref=e629]
+                - cell "Abi 12" [ref=e632]
+                - cell "05/05/2026" [ref=e634]
+                - cell "05/26/2026" [ref=e637]
+                - cell "08/28/2026" [ref=e640]
+                - cell [ref=e642]:
+                  - button "0 " [ref=e643] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e644]
+                    - generic [ref=e645]: 
+                - cell [ref=e646]:
+                  - generic [ref=e647]:
+                    - button "" [ref=e648] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e651]:
+                      - button "" [ref=e653] [cursor=pointer]
+                      - text: 
+              - row [ref=e656]:
+                - cell [ref=e657]:
+                  - button "" [ref=e658] [cursor=pointer]
+                - cell [ref=e660]:
+                  - link "001 planning to manufacturing6456456456 - Clone(1)" [ref=e662] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1a5dea12b1900310d2b7d/6a91393429e3ba7a5006f78f/"
+                - cell [ref=e663]
+                - cell [ref=e664]
+                - cell "WEB 14.4.1" [ref=e665]
+                - cell "Planning" [ref=e668]
+                - cell "Abi 12" [ref=e671]
+                - cell "05/05/2026" [ref=e673]
+                - cell "05/26/2026" [ref=e676]
+                - cell "08/28/2026" [ref=e679]
+                - cell [ref=e681]:
+                  - button "0 " [ref=e682] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e683]
+                    - generic [ref=e684]: 
+                - cell [ref=e685]:
+                  - generic [ref=e686]:
+                    - button "" [ref=e687] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e690]:
+                      - button "" [ref=e692] [cursor=pointer]
+                      - text: 
+              - row [ref=e695]:
+                - cell [ref=e696]:
+                  - button "" [ref=e697] [cursor=pointer]
+                - cell [ref=e699]:
+                  - link "0707" [ref=e701] [cursor=pointer]:
+                    - /url: "#/prefabs/698341bb7ef3d666e36af5e5/6a4cead57f9baa0028cbd2be/"
+                - cell [ref=e702]
+                - cell [ref=e703]
+                - cell "Vertex Build" [ref=e704]
+                - cell "Manufacturing" [ref=e707]
+                - cell "GC FerraBuild" [ref=e710]
+                - cell "07/07/2026" [ref=e712]
+                - cell "07/28/2026" [ref=e715]
+                - cell "07/07/2026" [ref=e718]
+                - cell [ref=e720]:
+                  - button "0 " [ref=e721] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e722]
+                    - generic [ref=e723]: 
+                - cell [ref=e724]:
+                  - generic [ref=e725]:
+                    - button "" [ref=e726] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e729]:
+                      - button "" [ref=e731] [cursor=pointer]
+                      - text: 
+              - row [ref=e734]:
+                - cell [ref=e735]:
+                  - button "" [ref=e736] [cursor=pointer]
+                - cell [ref=e738]:
+                  - link "1' - 7\"" [ref=e740] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1b2971275080032de712b/69f32124d51f69002d5edd63/"
+                - cell [ref=e741]
+                - cell [ref=e742]:
+                  - button "" [ref=e747] [cursor=pointer]
+                - cell "Downtown LA Commercial Build" [ref=e749]
+                - cell "Coordination" [ref=e752]
+                - cell "Danush001 T S" [ref=e755]
+                - cell "04/16/2026" [ref=e757]
+                - cell "04/30/2026" [ref=e760]
+                - cell "04/30/2026" [ref=e763]
+                - cell [ref=e765]:
+                  - button "0 " [ref=e766] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e767]
+                    - generic [ref=e768]: 
+                - cell [ref=e769]:
+                  - generic [ref=e770]:
+                    - button "" [ref=e771] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e774]:
+                      - button "" [ref=e776] [cursor=pointer]
+                      - text: 
+              - row [ref=e779]:
+                - cell [ref=e780]:
+                  - button "" [ref=e781] [cursor=pointer]
+                - cell [ref=e783]:
+                  - link "1' - 7\"" [ref=e785] [cursor=pointer]:
+                    - /url: "#/prefabs/6a3518b2c05acd002884cda3/6a3a5928f9e086002db74820/"
+                - cell [ref=e786]
+                - cell [ref=e787]:
+                  - button "" [ref=e792] [cursor=pointer]
+                - cell "Waf project-09" [ref=e794]
+                - cell "Planning" [ref=e797]
+                - cell "Danush001 T S" [ref=e800]
+                - cell "06/11/2026" [ref=e802]
+                - cell "06/26/2026" [ref=e805]
+                - cell "06/23/2026" [ref=e808]
+                - cell [ref=e810]:
+                  - button "0 " [ref=e811] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e812]
+                    - generic [ref=e813]: 
+                - cell [ref=e814]:
+                  - generic [ref=e815]:
+                    - button "" [ref=e816] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e819]:
+                      - button "" [ref=e821] [cursor=pointer]
+                      - text: 
+              - row [ref=e824]:
+                - cell [ref=e825]:
+                  - button "" [ref=e826] [cursor=pointer]
+                - cell [ref=e828]:
+                  - link "1' - 7\"" [ref=e830] [cursor=pointer]:
+                    - /url: "#/prefabs/69f99435500c99002c3a3ab6/6a3cf120d8d730002696ce63/"
+                - cell [ref=e831]
+                - cell [ref=e832]:
+                  - button "" [ref=e837] [cursor=pointer]
+                - cell "security Chnages" [ref=e839]
+                - cell "Delivery" [ref=e842]
+                - cell "Danush001 T S" [ref=e845]
+                - cell "06/06/2026" [ref=e847]
+                - cell "06/30/2026" [ref=e850]
+                - cell "08/10/2026" [ref=e853]
+                - cell [ref=e855]:
+                  - button "0 " [ref=e856] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e857]
+                    - generic [ref=e858]: 
+                - cell [ref=e859]:
+                  - generic [ref=e860]:
+                    - button "" [ref=e861] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e864]:
+                      - button "" [ref=e866] [cursor=pointer]
+                      - text: 
+              - row [ref=e869]:
+                - cell [ref=e870]:
+                  - button "" [ref=e871] [cursor=pointer]
+                - cell [ref=e873]:
+                  - link "1' - 7\"" [ref=e875] [cursor=pointer]:
+                    - /url: "#/prefabs/6a3cf008d8d730002696cb66/6a55f7032a42440027ce0484/"
+                - cell [ref=e876]
+                - cell [ref=e877]:
+                  - button "" [ref=e882] [cursor=pointer]
+                - cell "Imp Parket" [ref=e884]
+                - cell "Detailing" [ref=e887]
+                - cell "Danush001 T S" [ref=e890]
+                - cell "07/08/2026" [ref=e892]
+                - cell "07/31/2026" [ref=e895]
+                - cell "07/14/2026" [ref=e898]
+                - cell [ref=e900]:
+                  - button "0 " [ref=e901] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e902]
+                    - generic [ref=e903]: 
+                - cell [ref=e904]:
+                  - generic [ref=e905]:
+                    - button "" [ref=e906] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e909]:
+                      - button "" [ref=e911] [cursor=pointer]
+                      - text: 
+              - row [ref=e914]:
+                - cell [ref=e915]:
+                  - button "" [ref=e916] [cursor=pointer]
+                - cell [ref=e918]:
+                  - link "1' - 7\"" [ref=e920] [cursor=pointer]:
+                    - /url: "#/prefabs/69f02e2f82e4d600315e6317/6a61fd48d8ca7a002d3cb3e3/"
+                - cell [ref=e921]
+                - cell [ref=e922]:
+                  - button "" [ref=e927] [cursor=pointer]
+                - cell "chk-00122" [ref=e929]
+                - cell "Planning" [ref=e932]
+                - cell "Danush001 T S" [ref=e935]
+                - cell "07/16/2026" [ref=e937]
+                - cell "07/31/2026" [ref=e940]
+                - cell "07/23/2026" [ref=e943]
+                - cell [ref=e945]:
+                  - button "0 " [ref=e946] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e947]
+                    - generic [ref=e948]: 
+                - cell [ref=e949]:
+                  - generic [ref=e950]:
+                    - button "" [ref=e951] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e954]:
+                      - button "" [ref=e956] [cursor=pointer]
+                      - text: 
+              - row [ref=e959]:
+                - cell [ref=e960]:
+                  - button "" [ref=e961] [cursor=pointer]
+                - cell [ref=e963]:
+                  - link "1' - 7\"8" [ref=e965] [cursor=pointer]:
+                    - /url: "#/prefabs/6a660e83ae1e2d0026b742df/6a867be881fc4f83edef1691/"
+                - cell [ref=e966]
+                - cell [ref=e967]:
+                  - button "" [ref=e972] [cursor=pointer]
+                - cell "26072026-001" [ref=e974]
+                - cell "QA/QC" [ref=e977]
+                - cell "Danush001 T S" [ref=e980]
+                - cell "07/29/2026" [ref=e982]
+                - cell "08/22/2026" [ref=e985]
+                - cell "08/20/2026" [ref=e988]
+                - cell [ref=e990]:
+                  - button "0 " [ref=e991] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e992]
+                    - generic [ref=e993]: 
+                - cell [ref=e994]:
+                  - generic [ref=e995]:
+                    - button "" [ref=e996] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e999]:
+                      - button "" [ref=e1001] [cursor=pointer]
+                      - text: 
+              - row [ref=e1004]:
+                - cell [ref=e1005]:
+                  - button "" [ref=e1006] [cursor=pointer]
+                - cell [ref=e1008]:
+                  - link "1087" [ref=e1010] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1b2971275080032de712b/69f335dfc6d07e002613ff81/"
+                - cell [ref=e1011]
+                - cell [ref=e1012]:
+                  - button "" [ref=e1017] [cursor=pointer]
+                - cell "Downtown LA Commercial Build" [ref=e1019]
+                - cell "Detailing" [ref=e1022]
+                - cell "GC FerraBuild" [ref=e1025]
+                - cell "04/04/2026" [ref=e1027]
+                - cell "04/10/2026" [ref=e1030]
+                - cell "04/30/2026" [ref=e1033]
+                - cell [ref=e1035]:
+                  - button "0 " [ref=e1036] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e1037]
+                    - generic [ref=e1038]: 
+                - cell [ref=e1039]:
+                  - generic [ref=e1040]:
+                    - button "" [ref=e1041] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e1044]:
+                      - button "" [ref=e1046] [cursor=pointer]
+                      - text: 
+              - row [ref=e1049]:
+                - cell [ref=e1050]:
+                  - button "" [ref=e1051] [cursor=pointer]
+                - cell [ref=e1053]:
+                  - link "1088" [ref=e1055] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1b2971275080032de712b/69f335e292221f01be54d22e/"
+                - cell [ref=e1056]
+                - cell [ref=e1057]:
+                  - button "" [ref=e1062] [cursor=pointer]
+                - cell "Downtown LA Commercial Build" [ref=e1064]
+                - cell "Detailing" [ref=e1067]
+                - cell "GC FerraBuild" [ref=e1070]
+                - cell "04/04/2026" [ref=e1072]
+                - cell "04/10/2026" [ref=e1075]
+                - cell "04/30/2026" [ref=e1078]
+                - cell [ref=e1080]:
+                  - button "0 " [ref=e1081] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e1082]
+                    - generic [ref=e1083]: 
+                - cell [ref=e1084]:
+                  - generic [ref=e1085]:
+                    - button "" [ref=e1086] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e1089]:
+                      - button "" [ref=e1091] [cursor=pointer]
+                      - text: 
+              - row [ref=e1094]:
+                - cell [ref=e1095]:
+                  - button "" [ref=e1096] [cursor=pointer]
+                - cell [ref=e1098]:
+                  - link "12222" [ref=e1100] [cursor=pointer]:
+                    - /url: "#/prefabs/698341bb7ef3d666e36af5e5/6a8e624ff8711f6572e668b2/"
+                - cell [ref=e1101]
+                - cell [ref=e1102]
+                - cell "Vertex Build" [ref=e1103]
+                - cell "Detailing" [ref=e1106]
+                - cell "k moger ." [ref=e1109]
+                - cell "08/05/2026" [ref=e1111]
+                - cell "08/26/2026" [ref=e1114]
+                - cell "08/26/2026" [ref=e1117]
+                - cell [ref=e1119]:
+                  - button "0 " [ref=e1120] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e1121]
+                    - generic [ref=e1122]: 
+                - cell [ref=e1123]:
+                  - generic [ref=e1124]:
+                    - button "" [ref=e1125] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e1128]:
+                      - button "" [ref=e1130] [cursor=pointer]
+                      - text: 
+              - row [ref=e1133]:
+                - cell [ref=e1134]:
+                  - button "" [ref=e1135] [cursor=pointer]
+                - cell [ref=e1137]:
+                  - link "12345" [ref=e1139] [cursor=pointer]:
+                    - /url: "#/prefabs/698341bb7ef3d666e36af5e5/6a8e636cf8711f6572e6703a/"
+                - cell [ref=e1140]
+                - cell [ref=e1141]
+                - cell "Vertex Build" [ref=e1142]
+                - cell "Manufacturing" [ref=e1145]
+                - cell "k moger ." [ref=e1148]
+                - cell "08/06/2026" [ref=e1150]
+                - cell "08/20/2026" [ref=e1153]
+                - cell "08/26/2026" [ref=e1156]
+                - cell [ref=e1158]:
+                  - button "0 " [ref=e1159] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e1160]
+                    - generic [ref=e1161]: 
+                - cell [ref=e1162]:
+                  - generic [ref=e1163]:
+                    - button "" [ref=e1164] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e1167]:
+                      - button "" [ref=e1169] [cursor=pointer]
+                      - text: 
+              - row [ref=e1172]:
+                - cell [ref=e1173]:
+                  - button "" [ref=e1174] [cursor=pointer]
+                - cell [ref=e1176]:
+                  - link "1234567" [ref=e1178] [cursor=pointer]:
+                    - /url: "#/prefabs/698341bb7ef3d666e36af5e5/6a8e6035ba08309e7eb3b6cc/"
+                - cell [ref=e1179]
+                - cell [ref=e1180]
+                - cell "Vertex Build" [ref=e1181]
+                - cell "Detailing" [ref=e1184]
+                - cell "k moger ." [ref=e1187]
+                - cell "08/13/2026" [ref=e1189]
+                - cell "08/26/2026" [ref=e1192]
+                - cell "08/26/2026" [ref=e1195]
+                - cell [ref=e1197]:
+                  - button "0 " [ref=e1198] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e1199]
+                    - generic [ref=e1200]: 
+                - cell [ref=e1201]:
+                  - generic [ref=e1202]:
+                    - button "" [ref=e1203] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e1206]:
+                      - button "" [ref=e1208] [cursor=pointer]
+                      - text: 
+              - row [ref=e1211]:
+                - cell [ref=e1212]:
+                  - button "" [ref=e1213] [cursor=pointer]
+                - cell [ref=e1215]:
+                  - link "14' - 7\"" [ref=e1217] [cursor=pointer]:
+                    - /url: "#/prefabs/69f1b2971275080032de712b/69f32125334b570026aef071/"
+                - cell [ref=e1218]
+                - cell [ref=e1219]:
+                  - button "" [ref=e1224] [cursor=pointer]
+                - cell "Downtown LA Commercial Build" [ref=e1226]
+                - cell "Coordination" [ref=e1229]
+                - cell "Danush001 T S" [ref=e1232]
+                - cell "04/16/2026" [ref=e1234]
+                - cell "04/30/2026" [ref=e1237]
+                - cell "04/30/2026" [ref=e1240]
+                - cell [ref=e1242]:
+                  - button "0 " [ref=e1243] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e1244]
+                    - generic [ref=e1245]: 
+                - cell [ref=e1246]:
+                  - generic [ref=e1247]:
+                    - button "" [ref=e1248] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e1251]:
+                      - button "" [ref=e1253] [cursor=pointer]
+                      - text: 
+              - row [ref=e1256]:
+                - cell [ref=e1257]:
+                  - button "" [ref=e1258] [cursor=pointer]
+                - cell [ref=e1260]:
+                  - link "14' - 7\"" [ref=e1262] [cursor=pointer]:
+                    - /url: "#/prefabs/69eb4b3e270c7251c72a7203/69f8501754743c002e30fe46/"
+                - cell [ref=e1263]
+                - cell [ref=e1264]:
+                  - button "" [ref=e1269] [cursor=pointer]
+                - cell "NEWPROJECT0012" [ref=e1271]
+                - cell "Detailing" [ref=e1274]
+                - cell "Danush001 T S" [ref=e1277]
+                - cell "04/28/2026" [ref=e1279]
+                - cell "05/30/2026" [ref=e1282]
+                - cell "05/04/2026" [ref=e1285]
+                - cell [ref=e1287]:
+                  - button "0 " [ref=e1288] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=e1289]
+                    - generic [ref=e1290]: 
+                - cell [ref=e1291]:
+                  - generic [ref=e1292]:
+                    - button "" [ref=e1293] [cursor=pointer]
+                    - text: 
+                    - generic [ref=e1296]:
+                      - button "" [ref=e1298] [cursor=pointer]
+                      - text: 

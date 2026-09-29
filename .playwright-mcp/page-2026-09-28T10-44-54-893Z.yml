@@ -1,0 +1,121 @@
+- generic [ref=f6e4]:
+  - generic [ref=f6e5]:
+    - button [ref=f6e6] [cursor=pointer]
+    - complementary [ref=f6e9]:
+      - list [ref=f6e10]:
+        - listitem [ref=f6e11]:
+          - generic [ref=f6e12]: 
+        - listitem [ref=f6e15]:
+          - generic [ref=f6e16] [cursor=pointer]: 
+        - listitem [ref=f6e19]:
+          - generic [ref=f6e20] [cursor=pointer]: 
+        - listitem [ref=f6e23]:
+          - generic [ref=f6e24] [cursor=pointer]: 
+        - listitem [ref=f6e27]:
+          - generic [ref=f6e28] [cursor=pointer]: 
+        - listitem [ref=f6e31]:
+          - generic [ref=f6e32] [cursor=pointer]: 
+        - listitem [ref=f6e35]:
+          - generic [ref=f6e36] [cursor=pointer]: 
+        - listitem [ref=f6e39]:
+          - generic [ref=f6e40] [cursor=pointer]: 
+      - list [ref=f6e43]:
+        - listitem [ref=f6e44]:
+          - figure [ref=f6e47] [cursor=pointer]
+        - listitem [ref=f6e49]:
+          - generic [ref=f6e50] [cursor=pointer]: 
+        - listitem [ref=f6e53]:
+          - generic [ref=f6e54] [cursor=pointer]: 
+        - listitem [ref=f6e57]
+  - generic [ref=f6e61]:
+    - navigation "main navigation" [ref=f6e62]:
+      - generic [ref=f6e65]:
+        - button "" [ref=f6e66] [cursor=pointer]
+        - link [ref=f6e69] [cursor=pointer]:
+          - /url: https://manufacton.zendesk.com/hc/en-us
+        - figure [ref=f6e71]
+    - generic [ref=f6e72]:
+      - button "Projects (57/57):" [ref=f6e73] [cursor=pointer]
+      - generic [ref=f6e76]: All Projects
+    - generic [ref=f6e79]:
+      - tablist [ref=f6e80]:
+        - tab [ref=f6e81]:
+          - button "Dashboard" [ref=f6e82] [cursor=pointer]
+        - tab [ref=f6e84]:
+          - button "Detailing" [ref=f6e85] [cursor=pointer]
+        - tab [selected] [ref=f6e87]:
+          - button "Manufacturing" [ref=f6e88] [cursor=pointer]
+        - tab [ref=f6e90]:
+          - button "QA/QC" [ref=f6e91] [cursor=pointer]
+      - generic [ref=f6e94]:
+        - button "" [ref=f6e100] [cursor=pointer]
+        - generic [ref=f6e102]:
+          - generic [ref=f6e104]:
+            - combobox [ref=f6e110]:
+              - generic [ref=f6e111] [cursor=pointer]
+              - generic [ref=f6e112]: Bulk Actions
+            - generic [ref=f6e117]:
+              - button "" [ref=f6e120] [cursor=pointer]
+              - generic [ref=f6e125]:
+                - combobox [ref=f6e129]:
+                  - generic [ref=f6e130] [cursor=pointer]
+                  - generic [ref=f6e131]: Order Name
+                - paragraph [ref=f6e136]:
+                  - textbox "Search" [ref=f6e137]
+                - button "" [ref=f6e139] [cursor=pointer]
+                - button "i" [ref=f6e143] [cursor=pointer]
+          - table [ref=f6e147]:
+            - rowgroup [ref=f6e148]:
+              - row [ref=f6e149]:
+                - columnheader [ref=f6e150]
+                - columnheader "Order Name" [ref=f6e151] [cursor=pointer]
+                - columnheader "Order Type" [ref=f6e156] [cursor=pointer]
+                - columnheader "" [ref=f6e158]
+                - columnheader "Project" [ref=f6e166] [cursor=pointer]
+                - columnheader "Status" [ref=f6e168] [cursor=pointer]
+                - columnheader "Owner" [ref=f6e170] [cursor=pointer]
+                - columnheader "Location" [ref=f6e172] [cursor=pointer]
+                - columnheader "Total Items" [ref=f6e174] [cursor=pointer]
+                - columnheader "Items (%Done)" [ref=f6e176] [cursor=pointer]
+                - columnheader "Work Steps (% Done)" [ref=f6e178] [cursor=pointer]
+                - columnheader "Planned Hours" [ref=f6e180] [cursor=pointer]
+                - columnheader "Actual Hours" [ref=f6e182] [cursor=pointer]
+                - columnheader "Manufacture By" [ref=f6e184] [cursor=pointer]
+                - columnheader "Onsite" [ref=f6e186] [cursor=pointer]
+                - columnheader "Modified" [ref=f6e188] [cursor=pointer]
+                - columnheader "Notes" [ref=f6e190]
+                - columnheader "Actions" [ref=f6e192]
+              - row [ref=f6e194]:
+                - columnheader [ref=f6e195]
+                - columnheader [ref=f6e196] [cursor=pointer]
+                - columnheader [ref=f6e197] [cursor=pointer]
+                - columnheader [ref=f6e198]
+                - columnheader [ref=f6e199] [cursor=pointer]
+                - columnheader [ref=f6e200] [cursor=pointer]
+                - columnheader [ref=f6e201] [cursor=pointer]
+                - columnheader [ref=f6e202] [cursor=pointer]
+                - columnheader [ref=f6e203] [cursor=pointer]
+                - columnheader [ref=f6e204] [cursor=pointer]
+                - columnheader [ref=f6e205] [cursor=pointer]
+                - columnheader [ref=f6e206] [cursor=pointer]
+                - columnheader [ref=f6e207] [cursor=pointer]
+                - columnheader "All Dates " [ref=f6e208] [cursor=pointer]:
+                  - generic [ref=f6e212]:
+                    - generic [ref=f6e213]: All Dates
+                    - generic [ref=f6e214]: 
+                - columnheader "All Dates " [ref=f6e215] [cursor=pointer]:
+                  - generic [ref=f6e219]:
+                    - generic [ref=f6e220]: All Dates
+                    - generic [ref=f6e221]: 
+                - columnheader "All Dates " [ref=f6e222] [cursor=pointer]:
+                  - generic [ref=f6e226]:
+                    - generic [ref=f6e227]: All Dates
+                    - generic [ref=f6e228]: 
+                - columnheader [ref=f6e229]
+                - columnheader [ref=f6e230]:
+                  - generic [ref=f6e232]:
+                    - button "" [ref=f6e233] [cursor=pointer]
+                    - button "" [ref=f6e235] [cursor=pointer]
+            - rowgroup:
+              - row:
+                - cell

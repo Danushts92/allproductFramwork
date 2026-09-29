@@ -1,0 +1,20 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="41.46529100000001">
+<testsuite name="..\..\..\..\shared\auth\bimplus.auth.setup.ts" timestamp="2026-09-28T05:48:22.073Z" hostname="bimplus-setup" tests="1" failures="0" skipped="0" time="21.942" errors="0">
+<testcase name="authenticate bimplus through Connect SSO" classname="..\..\..\..\shared\auth\bimplus.auth.setup.ts" time="21.942">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|bimplus.auth.setup.ts-auth-10810-bimplus-through-Connect-SSO-bimplus-setup\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2026-09-28T05:48:22.073Z" hostname="bimplus" tests="1" failures="0" skipped="0" time="16.333" errors="0">
+<testcase name="Bimplus — Login › user can log in successfully" classname="login.spec.ts" time="16.333">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|login-Bimplus-—-Login-user-can-log-in-successfully-bimplus\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,914 @@
+- generic [ref=f6e4]:
+  - generic [ref=f6e5]:
+    - button [ref=f6e6] [cursor=pointer]
+    - complementary [ref=f6e9]:
+      - list [ref=f6e10]:
+        - listitem [ref=f6e11]:
+          - generic [ref=f6e12]: 
+        - listitem [ref=f6e15]:
+          - generic [ref=f6e16] [cursor=pointer]: 
+        - listitem [ref=f6e19]:
+          - generic [ref=f6e20] [cursor=pointer]: 
+        - listitem [ref=f6e23]:
+          - generic [ref=f6e24] [cursor=pointer]: 
+        - listitem [ref=f6e27]:
+          - generic [ref=f6e28] [cursor=pointer]: 
+        - listitem [ref=f6e31]:
+          - generic [ref=f6e32] [cursor=pointer]: 
+        - listitem [ref=f6e35]:
+          - generic [ref=f6e36] [cursor=pointer]: 
+        - listitem [ref=f6e39]:
+          - generic [ref=f6e40] [cursor=pointer]: 
+      - list [ref=f6e43]:
+        - listitem [ref=f6e44]:
+          - figure [ref=f6e47] [cursor=pointer]
+        - listitem [ref=f6e49]:
+          - generic [ref=f6e50] [cursor=pointer]: 
+        - listitem [ref=f6e53]:
+          - generic [ref=f6e54] [cursor=pointer]: 
+        - listitem [ref=f6e57]
+  - generic [ref=f6e61]:
+    - navigation "main navigation" [ref=f6e62]:
+      - generic [ref=f6e65]:
+        - button "" [ref=f6e66] [cursor=pointer]
+        - link [ref=f6e69] [cursor=pointer]:
+          - /url: https://manufacton.zendesk.com/hc/en-us
+        - figure [ref=f6e71]
+    - generic [ref=f6e72]:
+      - button "Projects (57/57):" [ref=f6e73] [cursor=pointer]
+      - generic [ref=f6e76]: All Projects
+    - generic [ref=f6e79]:
+      - tablist [ref=f6e80]:
+        - tab [ref=f6e81]:
+          - button "Dashboard" [ref=f6e82] [cursor=pointer]
+        - tab [ref=f6e84]:
+          - button "Detailing" [ref=f6e85] [cursor=pointer]
+        - tab [selected] [ref=f6e87]:
+          - button "Manufacturing" [ref=f6e88] [cursor=pointer]
+        - tab [ref=f6e90]:
+          - button "QA/QC" [ref=f6e91] [cursor=pointer]
+      - generic [ref=f6e94]:
+        - button "" [ref=f6e100] [cursor=pointer]
+        - generic [ref=f6e102]:
+          - generic [ref=f6e104]:
+            - combobox [ref=f6e110]:
+              - generic [ref=f6e111] [cursor=pointer]
+              - generic [ref=f6e112]: Bulk Actions
+            - generic [ref=f6e117]:
+              - button "" [ref=f6e120] [cursor=pointer]
+              - generic [ref=f6e125]:
+                - combobox [ref=f6e129]:
+                  - generic [ref=f6e130] [cursor=pointer]
+                  - generic [ref=f6e131]: Order Name
+                - paragraph [ref=f6e136]:
+                  - textbox "Search" [ref=f6e137]
+                - button "" [ref=f6e139] [cursor=pointer]
+                - button "i" [ref=f6e143] [cursor=pointer]
+          - table [ref=f6e147]:
+            - rowgroup [ref=f6e148]:
+              - row [ref=f6e149]:
+                - columnheader [ref=f6e150]
+                - columnheader "Order Name" [ref=f6e151] [cursor=pointer]
+                - columnheader "Order Type" [ref=f6e156] [cursor=pointer]
+                - columnheader "" [ref=f6e158]
+                - columnheader "Project" [ref=f6e166] [cursor=pointer]
+                - columnheader "Status" [ref=f6e168] [cursor=pointer]
+                - columnheader "Owner" [ref=f6e170] [cursor=pointer]
+                - columnheader "Location" [ref=f6e172] [cursor=pointer]
+                - columnheader "Total Items" [ref=f6e174] [cursor=pointer]
+                - columnheader "Items (%Done)" [ref=f6e176] [cursor=pointer]
+                - columnheader "Work Steps (% Done)" [ref=f6e178] [cursor=pointer]
+                - columnheader "Planned Hours" [ref=f6e180] [cursor=pointer]
+                - columnheader "Actual Hours" [ref=f6e182] [cursor=pointer]
+                - columnheader "Manufacture By" [ref=f6e184] [cursor=pointer]
+                - columnheader "Onsite" [ref=f6e186] [cursor=pointer]
+                - columnheader "Modified" [ref=f6e188] [cursor=pointer]
+                - columnheader "Notes" [ref=f6e190]
+                - columnheader "Actions" [ref=f6e192]
+              - row [ref=f6e241]:
+                - columnheader [ref=f6e195]
+                - columnheader [ref=f6e196] [cursor=pointer]
+                - columnheader "" [ref=f6e242] [cursor=pointer]:
+                  - generic [ref=f6e246]:
+                    - textbox "All Types (4)" [ref=f6e247]
+                    - generic [ref=f6e248]: 
+                - columnheader [ref=f6e198]
+                - columnheader "" [ref=f6e250] [cursor=pointer]:
+                  - generic [ref=f6e254]:
+                    - textbox "All Projects (57)" [ref=f6e255]
+                    - generic [ref=f6e256]: 
+                - columnheader "" [ref=f6e258] [cursor=pointer]:
+                  - generic [ref=f6e262]:
+                    - textbox "All Status (4)" [ref=f6e263]
+                    - generic [ref=f6e264]: 
+                - columnheader "" [ref=f6e266] [cursor=pointer]:
+                  - generic [ref=f6e270]:
+                    - textbox "All Owners (28)" [ref=f6e271]
+                    - generic [ref=f6e272]: 
+                - columnheader "" [ref=f6e274] [cursor=pointer]:
+                  - generic [ref=f6e278]:
+                    - textbox "All Locations (81)" [ref=f6e279]
+                    - generic [ref=f6e280]: 
+                - columnheader [ref=f6e203] [cursor=pointer]
+                - columnheader [ref=f6e204] [cursor=pointer]
+                - columnheader [ref=f6e205] [cursor=pointer]
+                - columnheader [ref=f6e206] [cursor=pointer]
+                - columnheader [ref=f6e207] [cursor=pointer]
+                - columnheader "All Dates " [ref=f6e208] [cursor=pointer]:
+                  - generic [ref=f6e212]:
+                    - generic [ref=f6e213]: All Dates
+                    - generic [ref=f6e214]: 
+                - columnheader "All Dates " [ref=f6e215] [cursor=pointer]:
+                  - generic [ref=f6e219]:
+                    - generic [ref=f6e220]: All Dates
+                    - generic [ref=f6e221]: 
+                - columnheader "All Dates " [ref=f6e222] [cursor=pointer]:
+                  - generic [ref=f6e226]:
+                    - generic [ref=f6e227]: All Dates
+                    - generic [ref=f6e228]: 
+                - columnheader [ref=f6e229]
+                - columnheader [ref=f6e230]:
+                  - generic [ref=f6e232]:
+                    - button "" [ref=f6e233] [cursor=pointer]
+                    - button "" [ref=f6e235] [cursor=pointer]
+            - rowgroup [ref=f6e282]:
+              - row [ref=f6e283]:
+                - cell [ref=f6e284]:
+                  - button "" [ref=f6e285] [cursor=pointer]
+                - cell [ref=f6e287]:
+                  - link "001 ord" [ref=f6e289] [cursor=pointer]:
+                    - /url: "#/managers/698341bb7ef3d666e36af5e5/6a91359a29e3ba7a500607c1/manufacturing"
+                - cell "Production" [ref=f6e290]
+                - cell [ref=f6e293]
+                - cell "Vertex Build" [ref=f6e294]
+                - cell "Not Started" [ref=f6e297]
+                - cell "ANil kumar" [ref=f6e303]
+                - cell "Chennai 001112" [ref=f6e305]
+                - cell "1" [ref=f6e307]
+                - cell "0%" [ref=f6e309]
+                - cell "0%" [ref=f6e313]
+                - cell "00:00" [ref=f6e317]
+                - cell "00:00" [ref=f6e319]
+                - cell "05/21/2026" [ref=f6e321]
+                - cell "05/29/2026" [ref=f6e324]
+                - cell "09/01/2026" [ref=f6e327]
+                - cell [ref=f6e329]:
+                  - button "0 " [ref=f6e330] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e331]
+                    - generic [ref=f6e332]: 
+                - cell [ref=f6e333]:
+                  - generic [ref=f6e334]:
+                    - button "" [ref=f6e335] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e338]:
+                      - button "" [ref=f6e340] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e343]:
+                - cell [ref=f6e344]:
+                  - button "" [ref=f6e345] [cursor=pointer]
+                - cell [ref=f6e347]:
+                  - link "0707" [ref=f6e349] [cursor=pointer]:
+                    - /url: "#/managers/698341bb7ef3d666e36af5e5/6a4ceaf27f9baa0028cbd34a/manufacturing"
+                - cell "Production" [ref=f6e350]
+                - cell [ref=f6e353]
+                - cell "Vertex Build" [ref=f6e354]
+                - cell "Not Started" [ref=f6e357]
+                - cell "ANil kumar" [ref=f6e363]
+                - cell "Chennai 001112" [ref=f6e365]
+                - cell "2" [ref=f6e367]
+                - cell "0%" [ref=f6e369]
+                - cell "0%" [ref=f6e373]
+                - cell "00:00" [ref=f6e377]
+                - cell "00:00" [ref=f6e379]
+                - cell "07/07/2026" [ref=f6e381]
+                - cell "07/28/2026" [ref=f6e384]
+                - cell "09/09/2026" [ref=f6e387]
+                - cell [ref=f6e389]:
+                  - button "0 " [ref=f6e390] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e391]
+                    - generic [ref=f6e392]: 
+                - cell [ref=f6e393]:
+                  - generic [ref=f6e394]:
+                    - button "" [ref=f6e395] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e398]:
+                      - button "" [ref=f6e400] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e403]:
+                - cell [ref=f6e404]:
+                  - button "" [ref=f6e405] [cursor=pointer]
+                - cell [ref=f6e407]:
+                  - link "12345" [ref=f6e409] [cursor=pointer]:
+                    - /url: "#/managers/698341bb7ef3d666e36af5e5/6a8e636cf8711f6572e67043/manufacturing"
+                - cell "Production" [ref=f6e410]
+                - cell [ref=f6e413]
+                - cell "Vertex Build" [ref=f6e414]
+                - cell "Not Started" [ref=f6e417]
+                - cell "k moger ." [ref=f6e423]
+                - cell "Chennai 001112" [ref=f6e425]
+                - cell "1" [ref=f6e427]
+                - cell "0%" [ref=f6e429]
+                - cell "0%" [ref=f6e433]
+                - cell "00:00" [ref=f6e437]
+                - cell "00:00" [ref=f6e439]
+                - cell "08/06/2026" [ref=f6e441]
+                - cell "08/20/2026" [ref=f6e444]
+                - cell "08/26/2026" [ref=f6e447]
+                - cell [ref=f6e449]:
+                  - button "0 " [ref=f6e450] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e451]
+                    - generic [ref=f6e452]: 
+                - cell [ref=f6e453]:
+                  - generic [ref=f6e454]:
+                    - button "" [ref=f6e455] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e458]:
+                      - button "" [ref=f6e460] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e463]:
+                - cell [ref=f6e464]:
+                  - button "" [ref=f6e465] [cursor=pointer]
+                - cell [ref=f6e467]:
+                  - link "14' - 7\"" [ref=f6e469] [cursor=pointer]:
+                    - /url: "#/managers/6a97c3f435a77e1d21f620f6/6a9e60280c948998b1b5ef91/manufacturing"
+                - cell "Production" [ref=f6e470]
+                - cell [ref=f6e473]:
+                  - button "" [ref=f6e478] [cursor=pointer]
+                - cell "Columner Project" [ref=f6e480]
+                - cell "Not Started" [ref=f6e483]
+                - cell "k moger ." [ref=f6e489]
+                - cell "OC-Warehouse1" [ref=f6e491]
+                - cell "1" [ref=f6e493]
+                - cell "0%" [ref=f6e495]
+                - cell "0%" [ref=f6e499]
+                - cell "00:00" [ref=f6e503]
+                - cell "00:00" [ref=f6e505]
+                - cell "09/17/2026" [ref=f6e507]
+                - cell "09/26/2026" [ref=f6e510]
+                - cell "09/07/2026" [ref=f6e513]
+                - cell [ref=f6e515]:
+                  - button "0 " [ref=f6e516] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e517]
+                    - generic [ref=f6e518]: 
+                - cell [ref=f6e519]:
+                  - generic [ref=f6e520]:
+                    - button "" [ref=f6e521] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e524]:
+                      - button "" [ref=f6e526] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e529]:
+                - cell [ref=f6e530]:
+                  - button "" [ref=f6e531] [cursor=pointer]
+                - cell [ref=f6e533]:
+                  - link "1915" [ref=f6e535] [cursor=pointer]:
+                    - /url: "#/managers/69f1b2971275080032de712b/69fc20762ba6bf002f11a978/manufacturing"
+                - cell "Production" [ref=f6e536]
+                - cell [ref=f6e539]
+                - cell "Downtown LA Commercial Build" [ref=f6e540]
+                - cell "In Progress" [ref=f6e543]
+                - cell "GC FerraBuild" [ref=f6e549]
+                - cell "Chennai 001112" [ref=f6e551]
+                - cell "2" [ref=f6e553]
+                - cell "50%" [ref=f6e555]
+                - cell "50%" [ref=f6e559]
+                - cell "00:00" [ref=f6e563]
+                - cell "00:00" [ref=f6e565]
+                - cell "05/07/2026" [ref=f6e567]
+                - cell "05/18/2026" [ref=f6e570]
+                - cell "05/07/2026" [ref=f6e573]
+                - cell [ref=f6e575]:
+                  - button "0 " [ref=f6e576] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e577]
+                    - generic [ref=f6e578]: 
+                - cell [ref=f6e579]:
+                  - generic [ref=f6e580]:
+                    - button "" [ref=f6e581] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e584]:
+                      - button "" [ref=f6e586] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e589]:
+                - cell [ref=f6e590]:
+                  - button "" [ref=f6e591] [cursor=pointer]
+                - cell [ref=f6e593]:
+                  - link "Acoustic Ceiling Tile 24 x 48 test" [ref=f6e595] [cursor=pointer]:
+                    - /url: "#/managers/698341bb7ef3d666e36af5e5/698441327ef3d666e36b221b/manufacturing"
+                - cell "Production" [ref=f6e596]
+                - cell [ref=f6e599]:
+                  - button "" [ref=f6e604] [cursor=pointer]
+                - cell "Vertex Build" [ref=f6e606]
+                - cell "Paused" [ref=f6e609]
+                - cell "ANil kumar" [ref=f6e615]
+                - cell "Chennai 001112" [ref=f6e617]
+                - cell "1" [ref=f6e619]
+                - cell "100%" [ref=f6e621]
+                - cell "100%" [ref=f6e625]
+                - cell "00:00" [ref=f6e629]
+                - cell "00:00" [ref=f6e631]
+                - cell "02/04/2026" [ref=f6e633]
+                - cell "02/05/2026" [ref=f6e636]
+                - cell "08/25/2026" [ref=f6e639]
+                - cell [ref=f6e641]:
+                  - button "0 " [ref=f6e642] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e643]
+                    - generic [ref=f6e644]: 
+                - cell [ref=f6e645]:
+                  - generic [ref=f6e646]:
+                    - button "" [ref=f6e647] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e650]:
+                      - button "" [ref=f6e652] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e655]:
+                - cell [ref=f6e656]:
+                  - button "" [ref=f6e657] [cursor=pointer]
+                - cell [ref=f6e659]:
+                  - link "Air Infiltration Barrier" [ref=f6e661] [cursor=pointer]:
+                    - /url: "#/managers/698341bb7ef3d666e36af5e5/6984413c7ef3d666e36b2499/manufacturing"
+                - cell "Production" [ref=f6e662]
+                - cell [ref=f6e665]:
+                  - button "" [ref=f6e670] [cursor=pointer]
+                - cell "Vertex Build" [ref=f6e672]
+                - cell "Not Started" [ref=f6e675]
+                - cell "GC FerraBuild" [ref=f6e681]
+                - cell "OC-Warehouse1" [ref=f6e683]
+                - cell "231" [ref=f6e685]
+                - cell "0%" [ref=f6e687]
+                - cell "0%" [ref=f6e691]
+                - cell "00:00" [ref=f6e695]
+                - cell "00:00" [ref=f6e697]
+                - cell "02/04/2026" [ref=f6e699]
+                - cell "02/05/2026" [ref=f6e702]
+                - cell "09/01/2026" [ref=f6e705]
+                - cell [ref=f6e707]:
+                  - button "0 " [ref=f6e708] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e709]
+                    - generic [ref=f6e710]: 
+                - cell [ref=f6e711]:
+                  - generic [ref=f6e712]:
+                    - button "" [ref=f6e713] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e716]:
+                      - button "" [ref=f6e718] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e721]:
+                - cell [ref=f6e722]:
+                  - button "" [ref=f6e723] [cursor=pointer]
+                - cell [ref=f6e725]:
+                  - link "Analytical Surface - Operable Windows" [ref=f6e727] [cursor=pointer]:
+                    - /url: "#/managers/698341bb7ef3d666e36af5e5/6984416f7ef3d666e36b318b/manufacturing"
+                - cell "Production" [ref=f6e728]
+                - cell [ref=f6e731]:
+                  - button "" [ref=f6e736] [cursor=pointer]
+                - cell "Vertex Build" [ref=f6e738]
+                - cell "Not Started" [ref=f6e741]
+                - cell "Abi 12" [ref=f6e747]
+                - cell "Atlanta Storage Facility" [ref=f6e749]
+                - cell "1" [ref=f6e751]
+                - cell "0%" [ref=f6e753]
+                - cell "0%" [ref=f6e757]
+                - cell "00:00" [ref=f6e761]
+                - cell "00:00" [ref=f6e763]
+                - cell "02/04/2026" [ref=f6e765]
+                - cell "02/05/2026" [ref=f6e768]
+                - cell "08/18/2026" [ref=f6e771]
+                - cell [ref=f6e773]:
+                  - button "0 " [ref=f6e774] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e775]
+                    - generic [ref=f6e776]: 
+                - cell [ref=f6e777]:
+                  - generic [ref=f6e778]:
+                    - button "" [ref=f6e779] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e782]:
+                      - button "" [ref=f6e784] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e787]:
+                - cell [ref=f6e788]:
+                  - button "" [ref=f6e789] [cursor=pointer]
+                - cell [ref=f6e791]:
+                  - link "B34" [ref=f6e793] [cursor=pointer]:
+                    - /url: "#/managers/6a5f0e50e676c4002c5562d9/6a97c19557a50b3e9d3b2869/manufacturing"
+                - cell "Production" [ref=f6e794]
+                - cell [ref=f6e797]:
+                  - button "" [ref=f6e802] [cursor=pointer]
+                - cell "21072026-001333" [ref=f6e804]
+                - cell "Complete" [ref=f6e807]
+                - cell "ANil kumar" [ref=f6e813]
+                - cell "Atlanta Storage Facility" [ref=f6e815]
+                - cell "1" [ref=f6e817]
+                - cell "100%" [ref=f6e819]
+                - cell "100%" [ref=f6e823]
+                - cell "00:00" [ref=f6e827]
+                - cell "00:00" [ref=f6e829]
+                - cell "09/11/2026" [ref=f6e831]
+                - cell "09/23/2026" [ref=f6e834]
+                - cell "09/02/2026" [ref=f6e837]
+                - cell [ref=f6e839]:
+                  - button "0 " [ref=f6e840] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e841]
+                    - generic [ref=f6e842]: 
+                - cell [ref=f6e843]:
+                  - generic [ref=f6e844]:
+                    - button "" [ref=f6e845] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e848]:
+                      - button "" [ref=f6e850] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e853]:
+                - cell [ref=f6e854]:
+                  - button "" [ref=f6e855] [cursor=pointer]
+                - cell [ref=f6e857]:
+                  - link "Boundary Wall Panels555" [ref=f6e859] [cursor=pointer]:
+                    - /url: "#/managers/6984423a7ef3d666e36b6613/69f9ae2eb71940002f20359e/manufacturing"
+                - cell "Production" [ref=f6e860]
+                - cell [ref=f6e863]
+                - cell "MetroLink Phase 2" [ref=f6e864]
+                - cell "Not Started" [ref=f6e867]
+                - cell "ANil kumar" [ref=f6e873]
+                - cell "Chennai 001112" [ref=f6e875]
+                - cell "1" [ref=f6e877]
+                - cell "0%" [ref=f6e879]
+                - cell "0%" [ref=f6e883]
+                - cell "00:00" [ref=f6e887]
+                - cell "00:00" [ref=f6e889]
+                - cell "05/23/2026" [ref=f6e891]
+                - cell "05/25/2026" [ref=f6e894]
+                - cell "08/19/2026" [ref=f6e897]
+                - cell [ref=f6e899]:
+                  - button "1 " [ref=f6e900] [cursor=pointer]:
+                    - heading "1" [level=3] [ref=f6e901]
+                    - generic [ref=f6e902]: 
+                - cell [ref=f6e903]:
+                  - generic [ref=f6e904]:
+                    - button "" [ref=f6e905] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e908]:
+                      - button "" [ref=f6e910] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e913]:
+                - cell [ref=f6e914]:
+                  - button "" [ref=f6e915] [cursor=pointer]
+                - cell [ref=f6e917]:
+                  - link "Canopy Steel Frames" [ref=f6e919] [cursor=pointer]:
+                    - /url: "#/managers/6984423a7ef3d666e36b6613/69f9ae2e500c99002c3a7126/manufacturing"
+                - cell "Production" [ref=f6e920]
+                - cell [ref=f6e923]
+                - cell "MetroLink Phase 2" [ref=f6e924]
+                - cell "Not Started" [ref=f6e927]
+                - cell "ANil kumar" [ref=f6e933]
+                - cell "Chennai 001112" [ref=f6e935]
+                - cell "1" [ref=f6e937]
+                - cell "0%" [ref=f6e939]
+                - cell "0%" [ref=f6e943]
+                - cell "00:00" [ref=f6e947]
+                - cell "00:00" [ref=f6e949]
+                - cell "05/23/2026" [ref=f6e951]
+                - cell "05/25/2026" [ref=f6e954]
+                - cell "06/29/2026" [ref=f6e957]
+                - cell [ref=f6e959]:
+                  - button "1 " [ref=f6e960] [cursor=pointer]:
+                    - heading "1" [level=3] [ref=f6e961]
+                    - generic [ref=f6e962]: 
+                - cell [ref=f6e963]:
+                  - generic [ref=f6e964]:
+                    - button "" [ref=f6e965] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e968]:
+                      - button "" [ref=f6e970] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e973]:
+                - cell [ref=f6e974]:
+                  - button "" [ref=f6e975] [cursor=pointer]
+                - cell [ref=f6e977]:
+                  - link "Column Reinforcement" [ref=f6e979] [cursor=pointer]:
+                    - /url: "#/managers/6984423a7ef3d666e36b6613/69f9ae2e39ffed0025153b69/manufacturing"
+                - cell "Production" [ref=f6e980]
+                - cell [ref=f6e983]
+                - cell "MetroLink Phase 2" [ref=f6e984]
+                - cell "Not Started" [ref=f6e987]
+                - cell "ANil kumar" [ref=f6e993]
+                - cell "Chennai 001112" [ref=f6e995]
+                - cell "1" [ref=f6e997]
+                - cell "0%" [ref=f6e999]
+                - cell "0%" [ref=f6e1003]
+                - cell "00:00" [ref=f6e1007]
+                - cell "00:00" [ref=f6e1009]
+                - cell "05/23/2026" [ref=f6e1011]
+                - cell "05/25/2026" [ref=f6e1014]
+                - cell "08/19/2026" [ref=f6e1017]
+                - cell [ref=f6e1019]:
+                  - button "1 " [ref=f6e1020] [cursor=pointer]:
+                    - heading "1" [level=3] [ref=f6e1021]
+                    - generic [ref=f6e1022]: 
+                - cell [ref=f6e1023]:
+                  - generic [ref=f6e1024]:
+                    - button "" [ref=f6e1025] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1028]:
+                      - button "" [ref=f6e1030] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1033]:
+                - cell [ref=f6e1034]:
+                  - button "" [ref=f6e1035] [cursor=pointer]
+                - cell [ref=f6e1037]:
+                  - link "Coord-bulk 1" [ref=f6e1039] [cursor=pointer]:
+                    - /url: "#/managers/6a268a59f4eb75002d594cfe/6a2821e5a3560d0027bdd9c3/manufacturing"
+                - cell "Production" [ref=f6e1040]
+                - cell [ref=f6e1043]
+                - cell "ROOFTOP-14.6.00" [ref=f6e1044]
+                - cell "Complete" [ref=f6e1047]
+                - cell "k moger ." [ref=f6e1053]
+                - cell "Chennai Assembly Unit" [ref=f6e1055]
+                - cell "1" [ref=f6e1057]
+                - cell "100%" [ref=f6e1059]
+                - cell "100%" [ref=f6e1063]
+                - cell "00:00" [ref=f6e1067]
+                - cell "00:00" [ref=f6e1069]
+                - cell "06/18/2026" [ref=f6e1071]
+                - cell "06/18/2026" [ref=f6e1074]
+                - cell "07/30/2026" [ref=f6e1077]
+                - cell [ref=f6e1079]:
+                  - button "0 " [ref=f6e1080] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1081]
+                    - generic [ref=f6e1082]: 
+                - cell [ref=f6e1083]:
+                  - generic [ref=f6e1084]:
+                    - button "" [ref=f6e1085] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1088]:
+                      - button "" [ref=f6e1090] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1093]:
+                - cell [ref=f6e1094]:
+                  - button "" [ref=f6e1095] [cursor=pointer]
+                - cell [ref=f6e1097]:
+                  - link "Coordi manu pick card view" [ref=f6e1099] [cursor=pointer]:
+                    - /url: "#/managers/69f8753f54743c002e312ac8/6a3cd4b7e1291d00257a4542/manufacturing"
+                - cell "Production" [ref=f6e1100]
+                - cell [ref=f6e1103]
+                - cell "Nested Location" [ref=f6e1104]
+                - cell "Paused" [ref=f6e1107]
+                - cell "k moger ." [ref=f6e1113]
+                - cell "Chennai Assembly Unit" [ref=f6e1115]
+                - cell "1" [ref=f6e1117]
+                - cell "0%" [ref=f6e1119]
+                - cell "0%" [ref=f6e1123]
+                - cell "00:00" [ref=f6e1127]
+                - cell "00:00" [ref=f6e1129]
+                - cell "06/27/2026" [ref=f6e1131]
+                - cell "06/27/2026" [ref=f6e1134]
+                - cell "06/29/2026" [ref=f6e1137]
+                - cell [ref=f6e1139]:
+                  - button "0 " [ref=f6e1140] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1141]
+                    - generic [ref=f6e1142]: 
+                - cell [ref=f6e1143]:
+                  - generic [ref=f6e1144]:
+                    - button "" [ref=f6e1145] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1148]:
+                      - button "" [ref=f6e1150] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1153]:
+                - cell [ref=f6e1154]:
+                  - button "" [ref=f6e1155] [cursor=pointer]
+                - cell [ref=f6e1157]:
+                  - link "Creating Pick Request" [ref=f6e1159] [cursor=pointer]:
+                    - /url: "#/managers/69f8753f54743c002e312ac8/6a1042ecad7d68003117ef1c/manufacturing"
+                - cell "Production" [ref=f6e1160]
+                - cell [ref=f6e1163]
+                - cell "Nested Location" [ref=f6e1164]
+                - cell "Not Started" [ref=f6e1167]
+                - cell "ANil kumar" [ref=f6e1173]
+                - cell "Chennai Assembly Unit" [ref=f6e1175]
+                - cell "10" [ref=f6e1177]
+                - cell "0%" [ref=f6e1179]
+                - cell "0%" [ref=f6e1183]
+                - cell "00:00" [ref=f6e1187]
+                - cell "00:00" [ref=f6e1189]
+                - cell "05/20/2026" [ref=f6e1191]
+                - cell "05/31/2026" [ref=f6e1194]
+                - cell "06/29/2026" [ref=f6e1197]
+                - cell [ref=f6e1199]:
+                  - button "0 " [ref=f6e1200] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1201]
+                    - generic [ref=f6e1202]: 
+                - cell [ref=f6e1203]:
+                  - generic [ref=f6e1204]:
+                    - button "" [ref=f6e1205] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1208]:
+                      - button "" [ref=f6e1210] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1213]:
+                - cell [ref=f6e1214]:
+                  - button "" [ref=f6e1215] [cursor=pointer]
+                - cell [ref=f6e1217]:
+                  - link "D24-04-plan to Mnaufat" [ref=f6e1219] [cursor=pointer]:
+                    - /url: "#/managers/6a8809d0956f0cbd2f1239d1/6a8befc0c0a84d087aa90883/manufacturing"
+                - cell "Production" [ref=f6e1220]
+                - cell [ref=f6e1223]
+                - cell "CLoud Project" [ref=f6e1224]
+                - cell "Not Started" [ref=f6e1227]
+                - cell "ANil kumar" [ref=f6e1233]
+                - cell "Atlanta Storage Facility" [ref=f6e1235]
+                - cell "2" [ref=f6e1237]
+                - cell "0%" [ref=f6e1239]
+                - cell "0%" [ref=f6e1243]
+                - cell "00:00" [ref=f6e1247]
+                - cell "00:00" [ref=f6e1249]
+                - cell "08/20/2026" [ref=f6e1251]
+                - cell "08/20/2026" [ref=f6e1254]
+                - cell "08/24/2026" [ref=f6e1257]
+                - cell [ref=f6e1259]:
+                  - button "0 " [ref=f6e1260] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1261]
+                    - generic [ref=f6e1262]: 
+                - cell [ref=f6e1263]:
+                  - generic [ref=f6e1264]:
+                    - button "" [ref=f6e1265] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1268]:
+                      - button "" [ref=f6e1270] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1273]:
+                - cell [ref=f6e1274]:
+                  - button "" [ref=f6e1275] [cursor=pointer]
+                - cell [ref=f6e1277]:
+                  - link "Det to manuf bom" [ref=f6e1279] [cursor=pointer]:
+                    - /url: "#/managers/69f1a5dea12b1900310d2b7d/69f98729275f36002ea20ac9/manufacturing"
+                - cell "Production" [ref=f6e1280]
+                - cell [ref=f6e1283]
+                - cell "WEB 14.4.1" [ref=f6e1284]
+                - cell "Not Started" [ref=f6e1287]
+                - cell "Aarav Mehta" [ref=f6e1293]
+                - cell "Chennai 001112" [ref=f6e1295]
+                - cell "2" [ref=f6e1297]
+                - cell "0%" [ref=f6e1299]
+                - cell "0%" [ref=f6e1303]
+                - cell "00:00" [ref=f6e1307]
+                - cell "00:00" [ref=f6e1309]
+                - cell "05/11/2026" [ref=f6e1311]
+                - cell "05/11/2026" [ref=f6e1314]
+                - cell "05/13/2026" [ref=f6e1317]
+                - cell [ref=f6e1319]:
+                  - button "0 " [ref=f6e1320] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1321]
+                    - generic [ref=f6e1322]: 
+                - cell [ref=f6e1323]:
+                  - generic [ref=f6e1324]:
+                    - button "" [ref=f6e1325] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1328]:
+                      - button "" [ref=f6e1330] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1333]:
+                - cell [ref=f6e1334]:
+                  - button "" [ref=f6e1335] [cursor=pointer]
+                - cell [ref=f6e1337]:
+                  - link "Detailing 1" [ref=f6e1339] [cursor=pointer]:
+                    - /url: "#/managers/69f8753f54743c002e312ac8/69f9b74039ffed0025154e46/manufacturing"
+                - cell "Production" [ref=f6e1340]
+                - cell [ref=f6e1343]
+                - cell "Nested Location" [ref=f6e1344]
+                - cell "Complete" [ref=f6e1347]
+                - cell "Monika G B" [ref=f6e1353]
+                - cell "OC-Warehouse1" [ref=f6e1355]
+                - cell "1" [ref=f6e1357]
+                - cell "100%" [ref=f6e1359]
+                - cell "100%" [ref=f6e1363]
+                - cell "00:00" [ref=f6e1367]
+                - cell "00:00" [ref=f6e1369]
+                - cell "05/05/2026" [ref=f6e1371]
+                - cell "05/29/2026" [ref=f6e1374]
+                - cell "05/05/2026" [ref=f6e1377]
+                - cell [ref=f6e1379]:
+                  - button "0 " [ref=f6e1380] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1381]
+                    - generic [ref=f6e1382]: 
+                - cell [ref=f6e1383]:
+                  - generic [ref=f6e1384]:
+                    - button "" [ref=f6e1385] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1388]:
+                      - button "" [ref=f6e1390] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1393]:
+                - cell [ref=f6e1394]:
+                  - button "" [ref=f6e1395] [cursor=pointer]
+                - cell [ref=f6e1397]:
+                  - link "Detailing order" [ref=f6e1399] [cursor=pointer]:
+                    - /url: "#/managers/69f8753f54743c002e312ac8/69f87574e662320027fb0dc1/manufacturing"
+                - cell "Production" [ref=f6e1400]
+                - cell [ref=f6e1403]
+                - cell "Nested Location" [ref=f6e1404]
+                - cell "Paused" [ref=f6e1407]
+                - cell "Aarav Mehta" [ref=f6e1413]
+                - cell "OC-Warehouse1" [ref=f6e1415]
+                - cell "1" [ref=f6e1417]
+                - cell "0%" [ref=f6e1419]
+                - cell "0%" [ref=f6e1423]
+                - cell "00:00" [ref=f6e1427]
+                - cell "00:00" [ref=f6e1429]
+                - cell "05/07/2026" [ref=f6e1431]
+                - cell "05/18/2026" [ref=f6e1434]
+                - cell "08/18/2026" [ref=f6e1437]
+                - cell [ref=f6e1439]:
+                  - button "0 " [ref=f6e1440] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1441]
+                    - generic [ref=f6e1442]: 
+                - cell [ref=f6e1443]:
+                  - generic [ref=f6e1444]:
+                    - button "" [ref=f6e1445] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1448]:
+                      - button "" [ref=f6e1450] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1453]:
+                - cell [ref=f6e1454]:
+                  - button "" [ref=f6e1455] [cursor=pointer]
+                - cell [ref=f6e1457]:
+                  - link "Doc in mobile test-010299" [ref=f6e1459] [cursor=pointer]:
+                    - /url: "#/managers/6a3518b2c05acd002884cda3/6a3e6d3d480a2a002fffe0da/manufacturing"
+                - cell "Production" [ref=f6e1460]
+                - cell [ref=f6e1463]
+                - cell "Waf project-09" [ref=f6e1464]
+                - cell "Not Started" [ref=f6e1467]
+                - cell "k moger ." [ref=f6e1473]
+                - cell "Chennai Assembly Unit" [ref=f6e1475]
+                - cell "1" [ref=f6e1477]
+                - cell "0%" [ref=f6e1479]
+                - cell "0%" [ref=f6e1483]
+                - cell "00:00" [ref=f6e1487]
+                - cell "00:00" [ref=f6e1489]
+                - cell "06/26/2026" [ref=f6e1491]
+                - cell "06/27/2026" [ref=f6e1494]
+                - cell "06/26/2026" [ref=f6e1497]
+                - cell [ref=f6e1499]:
+                  - button "0 " [ref=f6e1500] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1501]
+                    - generic [ref=f6e1502]: 
+                - cell [ref=f6e1503]:
+                  - generic [ref=f6e1504]:
+                    - button "" [ref=f6e1505] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1508]:
+                      - button "" [ref=f6e1510] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1513]:
+                - cell [ref=f6e1514]:
+                  - button "" [ref=f6e1515] [cursor=pointer]
+                - cell [ref=f6e1517]:
+                  - link "Electrical Conduit Materials" [ref=f6e1519] [cursor=pointer]:
+                    - /url: "#/managers/69f1a5dea12b1900310d2b7d/69f87749e662320027fb134c/manufacturing"
+                - cell "Production" [ref=f6e1520]
+                - cell [ref=f6e1523]
+                - cell "WEB 14.4.1" [ref=f6e1524]
+                - cell "Not Started" [ref=f6e1527]
+                - cell "GC FerraBuild" [ref=f6e1533]
+                - cell "Chennai 001112" [ref=f6e1535]
+                - cell "22" [ref=f6e1537]
+                - cell "0%" [ref=f6e1539]
+                - cell "0%" [ref=f6e1543]
+                - cell "00:00" [ref=f6e1547]
+                - cell "00:00" [ref=f6e1549]
+                - cell "05/14/2026" [ref=f6e1551]
+                - cell "05/20/2026" [ref=f6e1554]
+                - cell "05/05/2026" [ref=f6e1557]
+                - cell [ref=f6e1559]:
+                  - button "1 " [ref=f6e1560] [cursor=pointer]:
+                    - heading "1" [level=3] [ref=f6e1561]
+                    - generic [ref=f6e1562]: 
+                - cell [ref=f6e1563]:
+                  - generic [ref=f6e1564]:
+                    - button "" [ref=f6e1565] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1568]:
+                      - button "" [ref=f6e1570] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1573]:
+                - cell [ref=f6e1574]:
+                  - button "" [ref=f6e1575] [cursor=pointer]
+                - cell [ref=f6e1577]:
+                  - link "Façade Panels – Commercial Tower" [ref=f6e1579] [cursor=pointer]:
+                    - /url: "#/managers/6a3518b2c05acd002884cda3/6a3a7a5ce1291d00257a0180/manufacturing"
+                - cell "Production" [ref=f6e1580]
+                - cell [ref=f6e1583]
+                - cell "Waf project-09" [ref=f6e1584]
+                - cell "Not Started" [ref=f6e1587]
+                - cell "GC FerraBuild" [ref=f6e1593]
+                - cell "Chennai Assembly Unit" [ref=f6e1595]
+                - cell "1" [ref=f6e1597]
+                - cell "0%" [ref=f6e1599]
+                - cell "0%" [ref=f6e1603]
+                - cell "00:00" [ref=f6e1607]
+                - cell "00:00" [ref=f6e1609]
+                - cell "06/17/2026" [ref=f6e1611]
+                - cell "06/26/2026" [ref=f6e1614]
+                - cell "06/23/2026" [ref=f6e1617]
+                - cell [ref=f6e1619]:
+                  - button "1 " [ref=f6e1620] [cursor=pointer]:
+                    - heading "1" [level=3] [ref=f6e1621]
+                    - generic [ref=f6e1622]: 
+                - cell [ref=f6e1623]:
+                  - generic [ref=f6e1624]:
+                    - button "" [ref=f6e1625] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1628]:
+                      - button "" [ref=f6e1630] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1633]:
+                - cell [ref=f6e1634]:
+                  - button "" [ref=f6e1635] [cursor=pointer]
+                - cell [ref=f6e1637]:
+                  - link "Items order 01" [ref=f6e1639] [cursor=pointer]:
+                    - /url: "#/managers/6a8809d0956f0cbd2f1239d1/6a9e97a08486db95cc1795a4/manufacturing"
+                - cell "Production" [ref=f6e1640]
+                - cell [ref=f6e1643]
+                - cell "CLoud Project" [ref=f6e1644]
+                - cell "Complete" [ref=f6e1647]
+                - cell "k moger ." [ref=f6e1653]
+                - cell "Dallas Rental Facility" [ref=f6e1655]
+                - cell "521" [ref=f6e1657]
+                - cell "100%" [ref=f6e1659]
+                - cell "100%" [ref=f6e1663]
+                - cell "00:00" [ref=f6e1667]
+                - cell "00:00" [ref=f6e1669]
+                - cell "09/17/2026" [ref=f6e1671]
+                - cell "09/25/2026" [ref=f6e1674]
+                - cell "09/07/2026" [ref=f6e1677]
+                - cell [ref=f6e1679]:
+                  - button "0 " [ref=f6e1680] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1681]
+                    - generic [ref=f6e1682]: 
+                - cell [ref=f6e1683]:
+                  - generic [ref=f6e1684]:
+                    - button "" [ref=f6e1685] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1688]:
+                      - button "" [ref=f6e1690] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1693]:
+                - cell [ref=f6e1694]:
+                  - button "" [ref=f6e1695] [cursor=pointer]
+                - cell [ref=f6e1697]:
+                  - link "Items order-S7" [ref=f6e1699] [cursor=pointer]:
+                    - /url: "#/managers/6a97c3f435a77e1d21f620f6/6a9e8c5d4ab11779d3ed8923/manufacturing"
+                - cell "Production" [ref=f6e1700]
+                - cell [ref=f6e1703]
+                - cell "Columner Project" [ref=f6e1704]
+                - cell "Complete" [ref=f6e1707]
+                - cell "k moger ." [ref=f6e1713]
+                - cell "Dallas Rental Facility" [ref=f6e1715]
+                - cell "556" [ref=f6e1717]
+                - cell "100%" [ref=f6e1719]
+                - cell "100%" [ref=f6e1723]
+                - cell "00:00" [ref=f6e1727]
+                - cell "00:00" [ref=f6e1729]
+                - cell "09/18/2026" [ref=f6e1731]
+                - cell "09/25/2026" [ref=f6e1734]
+                - cell "09/07/2026" [ref=f6e1737]
+                - cell [ref=f6e1739]:
+                  - button "0 " [ref=f6e1740] [cursor=pointer]:
+                    - heading "0" [level=3] [ref=f6e1741]
+                    - generic [ref=f6e1742]: 
+                - cell [ref=f6e1743]:
+                  - generic [ref=f6e1744]:
+                    - button "" [ref=f6e1745] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1748]:
+                      - button "" [ref=f6e1750] [cursor=pointer]
+                      - text: 
+              - row [ref=f6e1753]:
+                - cell [ref=f6e1754]:
+                  - button "" [ref=f6e1755] [cursor=pointer]
+                - cell [ref=f6e1757]:
+                  - link "List view submit BOM" [ref=f6e1759] [cursor=pointer]:
+                    - /url: "#/managers/69f1a5dea12b1900310d2b7d/69f34a5ff84955002eb7a96c/manufacturing"
+                - cell "Production" [ref=f6e1760]
+                - cell [ref=f6e1763]
+                - cell "WEB 14.4.1" [ref=f6e1764]
+                - cell "Not Started" [ref=f6e1767]
+                - cell "Amit kumar" [ref=f6e1773]
+                - cell "Chennai 001112" [ref=f6e1775]
+                - cell "1" [ref=f6e1777]
+                - cell "0%" [ref=f6e1779]
+                - cell "0%" [ref=f6e1783]
+                - cell "00:00" [ref=f6e1787]
+                - cell "00:00" [ref=f6e1789]
+                - cell "04/15/2026" [ref=f6e1791]
+                - cell "04/30/2026" [ref=f6e1794]
+                - cell "04/30/2026" [ref=f6e1797]
+                - cell [ref=f6e1799]:
+                  - button "1 " [ref=f6e1800] [cursor=pointer]:
+                    - heading "1" [level=3] [ref=f6e1801]
+                    - generic [ref=f6e1802]: 
+                - cell [ref=f6e1803]:
+                  - generic [ref=f6e1804]:
+                    - button "" [ref=f6e1805] [cursor=pointer]
+                    - text: 
+                    - generic [ref=f6e1808]:
+                      - button "" [ref=f6e1810] [cursor=pointer]
+                      - text: 

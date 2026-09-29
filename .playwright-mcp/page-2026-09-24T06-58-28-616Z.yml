@@ -1,0 +1,24 @@
+- generic [ref=e9]:
+  - generic [ref=e10]: Welcome, Please Log In
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]: "User Name:"
+      - paragraph [ref=e18]:
+        - textbox "Email Address" [ref=e19]: danushts@allplan.com
+        - generic: 
+    - generic [ref=e20]:
+      - generic [ref=e21]: "Password:"
+      - paragraph [ref=e23]:
+        - textbox "Password" [ref=e24]: Allplan@1233
+        - generic: 
+        - generic [ref=e25] [cursor=pointer]: 
+    - paragraph [ref=e27]: Forgot password?
+    - paragraph [ref=e28]:
+      - text: By logging in, you accept the Manufacton
+      - link "Terms & Conditions" [ref=e29] [cursor=pointer]:
+        - /url: https://www.allplan.com/fileadmin/user_upload/countries/united-states/PDFs/MANUFACTON_Terms-and-Conditions.pdf
+      - text: and
+      - link "Privacy Policy" [ref=e30] [cursor=pointer]:
+        - /url: "#/manufacton-privacy-policy"
+      - text: .
+  - button "log in" [active] [ref=e32] [cursor=pointer]

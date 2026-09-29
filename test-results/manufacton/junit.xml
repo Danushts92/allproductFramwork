@@ -1,0 +1,21 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="1" errors="0" time="31.224656000000003">
+<testsuite name="..\..\..\..\shared\auth\manufacton.auth.setup.ts" timestamp="2026-09-28T10:59:56.784Z" hostname="manufacton-setup" tests="1" failures="0" skipped="1" time="1.216" errors="0">
+<testcase name="authenticate manufacton via email/password" classname="..\..\..\..\shared\auth\manufacton.auth.setup.ts">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="manufacturing.spec.ts" timestamp="2026-09-28T10:59:56.784Z" hostname="manufacton" tests="1" failures="0" skipped="0" time="26.743" errors="0">
+<testcase name="Manufacton — Manufacturing › creates a manufacturing production order" classname="manufacturing.spec.ts" time="26.743">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|manufacturing-Manufacton-—-653be-ufacturing-production-order-manufacton\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,39 @@
+[    6723ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    7711ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    7713ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    7714ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    9092ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    9092ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    9092ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    9162ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[    9846ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   10116ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   11887ms] [ERROR] ReferenceError: dr is not defined
+    at https://stage.manufacton.com/js/app.8f083e96.js:1:1069852 @ https://stage.manufacton.com/js/chunk-vendors.4fe7f89d.js:51
+[   23808ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   25619ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   25848ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   26605ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   43356ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   43361ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   44662ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   45362ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   49022ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   50218ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   66101ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   66101ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   66969ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   69429ms] [LOG] categories: [] @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   75836ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   78338ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   78721ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   80498ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   80750ms] [LOG] Report render successful @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   91329ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   91333ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   92391ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   95448ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   95471ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   96178ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   96633ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
+[   98111ms] [LOG] /api/v4 @ https://stage.manufacton.com/js/app.8f083e96.js:0
