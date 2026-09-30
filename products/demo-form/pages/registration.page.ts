@@ -33,7 +33,7 @@ export class RegistrationPage extends BasePage {
     this.countrySelect = page.getByLabel("Country");
     this.termsCheckbox = page.getByLabel("I accept the terms");
     this.submitButton = page.getByRole("button", { name: "Create account" });
-    this.resetButton = page.getByRole("button", { name: "Clear2" });
+    this.resetButton = page.getByRole("button", { name: "Reset" });
     this.successMessage = page.getByRole("status");
     this.fullNameError = page.locator("#fullName-error");
     this.emailError = page.locator("#email-feedback");

@@ -1,0 +1,303 @@
+{
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByLabel(\"Country\")": {
+    "tag": "select",
+    "id": "country",
+    "testId": "",
+    "role": "combobox",
+    "name": "Country",
+    "text": "-- Select -- Germany India United States",
+    "label": "Country",
+    "placeholder": "",
+    "nameAttr": "country",
+    "type": "",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByLabel(\"Country\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByLabel(\"Email\")": {
+    "tag": "input",
+    "id": "email",
+    "testId": "",
+    "role": "textbox",
+    "name": "Email",
+    "text": "",
+    "label": "Email",
+    "placeholder": "",
+    "nameAttr": "email",
+    "type": "email",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByLabel(\"Email\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByLabel(\"I accept the terms\")": {
+    "tag": "input",
+    "id": "terms",
+    "testId": "",
+    "role": "checkbox",
+    "name": "I accept the terms",
+    "text": "",
+    "label": "I accept the terms",
+    "placeholder": "",
+    "nameAttr": "terms",
+    "type": "checkbox",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "label",
+        "id": "",
+        "cls": []
+      },
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByLabel(\"I accept the terms\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByLabel(\"Password\")": {
+    "tag": "input",
+    "id": "password",
+    "testId": "",
+    "role": "",
+    "name": "Password",
+    "text": "",
+    "label": "Password",
+    "placeholder": "",
+    "nameAttr": "password",
+    "type": "password",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByLabel(\"Password\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByRole(\"button\", { name: \"Create account\" })": {
+    "tag": "button",
+    "id": "",
+    "testId": "",
+    "role": "button",
+    "name": "Create account",
+    "text": "Create account",
+    "label": "",
+    "placeholder": "",
+    "nameAttr": "",
+    "type": "submit",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByRole(\"button\", { name: \"Create account\" })"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByRole(\"heading\", { name: \"Registration\" })": {
+    "tag": "h1",
+    "id": "",
+    "testId": "",
+    "role": "heading",
+    "name": "Registration123",
+    "text": "Registration123",
+    "label": "",
+    "placeholder": "",
+    "nameAttr": "",
+    "type": "",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByRole(\"heading\", { name: \"Registration\" })"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByRole(\"status\")": {
+    "tag": "p",
+    "id": "success",
+    "testId": "",
+    "role": "status",
+    "name": "Welcome, Jane Doe! Registration successful.",
+    "text": "Welcome, Jane Doe! Registration successful.",
+    "label": "",
+    "placeholder": "",
+    "nameAttr": "",
+    "type": "",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByRole(\"status\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::getByRole(\"textbox\", { name: \"Your name\" })": {
+    "tag": "input",
+    "id": "fullName",
+    "testId": "",
+    "role": "textbox",
+    "name": "Your name",
+    "text": "",
+    "label": "Your name",
+    "placeholder": "",
+    "nameAttr": "fullName",
+    "type": "text",
+    "cls": [],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "getByRole(\"textbox\", { name: \"Your name\" })"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::locator(\"#email-feedback\")": {
+    "tag": "div",
+    "id": "email-feedback",
+    "testId": "",
+    "role": "alert",
+    "name": "Enter a valid email",
+    "text": "Enter a valid email",
+    "label": "",
+    "placeholder": "",
+    "nameAttr": "",
+    "type": "",
+    "cls": [
+      "error"
+    ],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "locator(\"#email-feedback\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::locator(\"#fullName-error\")": {
+    "tag": "div",
+    "id": "fullName-error",
+    "testId": "",
+    "role": "alert",
+    "name": "Full name is required",
+    "text": "Full name is required",
+    "label": "",
+    "placeholder": "",
+    "nameAttr": "",
+    "type": "",
+    "cls": [
+      "error"
+    ],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "locator(\"#fullName-error\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::locator(\"#password-error\")": {
+    "tag": "div",
+    "id": "password-error",
+    "testId": "",
+    "role": "alert",
+    "name": "Password must be at least 8 characters",
+    "text": "Password must be at least 8 characters",
+    "label": "",
+    "placeholder": "",
+    "nameAttr": "",
+    "type": "",
+    "cls": [
+      "error"
+    ],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "locator(\"#password-error\")"
+  },
+  "products/demo-form/pages/registration.page.ts::RegistrationPage.constructor::locator(\"#terms-error\")": {
+    "tag": "div",
+    "id": "terms-error",
+    "testId": "",
+    "role": "alert",
+    "name": "You must accept the terms",
+    "text": "You must accept the terms",
+    "label": "",
+    "placeholder": "",
+    "nameAttr": "",
+    "type": "",
+    "cls": [
+      "error"
+    ],
+    "icon": [],
+    "href": "",
+    "anc": [
+      {
+        "tag": "form",
+        "id": "registration-form",
+        "cls": []
+      }
+    ],
+    "count": 1,
+    "member": "RegistrationPage.constructor",
+    "callText": "locator(\"#terms-error\")"
+  }
+}
